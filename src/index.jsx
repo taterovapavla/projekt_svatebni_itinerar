@@ -3,6 +3,7 @@ import { HomePage } from './pages/HomePage';
 import './global.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { App } from './components/App';
+import { Planner } from './components/Planner';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
         path: '/',
         element: <HomePage />,
       },
+      {
+        path: '/planner',
+        element: <Planner />
+      }
     ],
   },
 ]);

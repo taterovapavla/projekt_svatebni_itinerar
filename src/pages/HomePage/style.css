@@ -1,7 +1,6 @@
 
 body {
   margin: 0px;
-  font-family: 'Raleway', sans-serif;
 }
 
 .homepage__heading {
@@ -17,7 +16,6 @@ body {
 
 .homepage__subtitle {
   color: #000;
-  font-family: Raleway;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 300;
@@ -31,7 +29,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("./img/flowers-background.jpg");
+  background-image: url(/images/flowers-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
