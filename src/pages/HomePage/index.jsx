@@ -3,10 +3,10 @@ import './style.css';
 export const HomePage = () => {
   return (
     <>
-      <div className="home-page">
-        <h1>Svatební online itinerář</h1>
-        <h2>Naplánujte si svůj velký den online</h2>
-        <button className="home-page-button">Začít</button>
+      <div className="homepage">
+        <h1 className='homepage__heading'>Svatební online itinerář</h1>
+        <h2 className='homepage__subtitle'>Naplánujte si svůj velký den online</h2>
+        <button className="homepage__button">Začít</button>
       </div>
     </>
   );
