@@ -10,7 +10,15 @@ export const Planner = () => {
         <h1 className="planner__heading">Svatební online itinerář</h1>
       </div>
       <div className="planner__content">
-        <Chrono items={timelineInfo} mode="HORIZONTAL" nestedCardHeight={200} />
+        <Chrono 
+          items={timelineInfo}
+          theme={{
+            cardBgColor: "none",
+            nestedCardBgColor: "white",
+            titleColor: "black",
+            titleColorActive: "black",
+          }}
+          mode="HORIZONTAL" nestedCardHeight={200} />
       </div>
     </>
   );
