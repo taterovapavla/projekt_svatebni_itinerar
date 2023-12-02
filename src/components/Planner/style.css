@@ -1,4 +1,3 @@
-
 .planner__header {
   width: 100%;
   height: 12rem;
@@ -19,4 +18,12 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.timeline-circle {
+  background-color: #97B1CC !important;
+}
+
+.timeline-circle.active {
+  background-color: #DB9EC5;
 }

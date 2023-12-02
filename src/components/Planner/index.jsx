@@ -3,22 +3,27 @@ import { Chrono } from 'react-chrono';
 import { timelineInfo } from './timeline-info';
 
 export const Planner = () => {
-  console.log(timelineInfo);
   return (
     <>
       <div className="planner__header">
         <h1 className="planner__heading">Svatební online itinerář</h1>
       </div>
       <div className="planner__content">
-        <Chrono 
+        <Chrono
           items={timelineInfo}
+          mode="HORIZONTAL"
+          nestedCardHeight={200}
           theme={{
-            cardBgColor: "none",
-            nestedCardBgColor: "white",
-            titleColor: "black",
-            titleColorActive: "black",
+            primary: 'grey',
+            secondary: '#DB9EC5',
+            cardTitleColor: 'black',
+            cardBgColor: 'none',
+            nestedCardBgColor: 'white',
+            titleColor: 'black',
+            titleColorActive: 'black',
+            iconBackgroundColor: '#97B1CC',
           }}
-          mode="HORIZONTAL" nestedCardHeight={200} />
+        />
       </div>
     </>
   );
