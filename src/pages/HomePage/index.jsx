@@ -22,11 +22,10 @@ export const HomePage = () => {
           value={date}
           placeholder={date}
         />
-        <button className="homepage__button">
-          <Link to="/planner" state={{ date }}>
-            Začít
-          </Link>
-        </button>
+
+        <Link className="homepage__button" to="/planner" state={{ date }}>
+          Začít
+        </Link>
       </div>
     </>
   );
