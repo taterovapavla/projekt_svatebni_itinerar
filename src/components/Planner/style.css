@@ -25,5 +25,5 @@
 }
 
 .timeline-circle.active {
-  background-color: #DB9EC5;
+  background-color: #DB9EC5 !important;
 }

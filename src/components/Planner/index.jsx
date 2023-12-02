@@ -1,8 +1,11 @@
 import './style.css';
 import { Chrono } from 'react-chrono';
 import { timelineInfo } from './timeline-info';
+import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 export const Planner = () => {
+  const [date] = useLocalStorage('date', '');
+  console.log(date);
   return (
     <>
       <div className="planner__header">
