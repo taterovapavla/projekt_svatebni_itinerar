@@ -38,7 +38,7 @@ body {
   height: 100vh;
 }
 
-.homepage__button {
+.homepage__link {
   font-size: 1rem;
   color: black;
   background-color: white;
@@ -55,4 +55,10 @@ body {
   margin-top: 1.5rem;
   text-align: center;
 
+}
+
+.homepage__link--disabled {
+  pointer-events: none;
+  color: #888;
+  text-decoration: none
 }

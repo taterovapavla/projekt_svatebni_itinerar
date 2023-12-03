@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom';
 import './style.css';
-import { DatePicker } from '@gsebdev/react-simple-datepicker';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { DatePickerValue } from '../../components/DatePicker/index.jsx';
 
 export const HomePage = () => {
   const [date, setDate] = useLocalStorage('date', '');
-  const onChangeCallback = ({ target }) => {
-    setDate(target.value);
-  };
+
   return (
     <>
       <div className="homepage">
@@ -15,15 +13,11 @@ export const HomePage = () => {
         <h2 className="homepage__subtitle">
           Naplánujte si svůj velký den online
         </h2>
-        <DatePicker
-          id="datepicker-id"
-          name="date-demo"
-          onChange={onChangeCallback}
-          value={date}
-          placeholder={date}
+        <DatePickerValue
+        setDateHomepage={setDate}
         />
-
-        <Link className="homepage__button" to="/planner" state={{ date }}>
+        <Link
+        className={ date ? "homepage__link" : "homepage__link homepage__link--disabled"} to="/planner">
           Začít
         </Link>
       </div>
