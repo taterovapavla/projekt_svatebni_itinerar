@@ -35,7 +35,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: calc(100vh - 2rem);
+  height: 100vh;
 }
 
 .homepage__button {

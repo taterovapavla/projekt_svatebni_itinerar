@@ -2,11 +2,11 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 15px;
+  gap: 3rem;
   margin: 0%;
   width: 50vw;
   text-transform: uppercase;
-  font-size: larger;
+  font-size: 1.3rem;
 }
 
 

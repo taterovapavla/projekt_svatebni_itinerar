@@ -16,8 +16,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/planner',
-        element: <Planner />
-      }
+        element: <Planner />,
+      },
     ],
   },
 ]);
