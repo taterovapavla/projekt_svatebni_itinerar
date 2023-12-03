@@ -26,4 +26,6 @@ a {
 a:hover {
   cursor: pointer;
   text-decoration: underline;
+  text-underline-offset: 8px;
+
 }
