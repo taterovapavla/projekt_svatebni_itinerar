@@ -1,0 +1,56 @@
+.harmonogram__header {
+  width: 100%;
+  height: 12rem;
+  background-image: url(/images/flowers-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.harmonogram__heading {
+  text-transform: uppercase;
+  color: #000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.itUpHz {
+  min-height: 0px !important;
+}
+
+.fSPvgE {
+  background: none !important;
+}
+
+.rc-card-media>div {
+  width: 64px !important;
+  height: 64px !important;
+}
+
+.rc-card-media {
+  display: flex;
+  width: 64px !important;
+  padding: 0 !important;
+  align-items: center !important;
+  position: relative !important;
+  top: 17px !important;
+}
+
+.itFAVr,
+.iGAcLQ {
+  width: 45% !important;
+}
+
+@media (min-width: 600px) {
+
+  .itFAVr,
+  .iGAcLQ {
+    width: 20% !important;
+  }
+}

@@ -4,6 +4,7 @@ import './global.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { App } from './components/App';
 import { Planner } from './components/Planner';
+import { Harmonogram } from './components/Harmonogram';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: '/planner',
         element: <Planner />,
+      },
+      {
+        path: '/harmonogram',
+        element: <Harmonogram />,
       },
     ],
   },
