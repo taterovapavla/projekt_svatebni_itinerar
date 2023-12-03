@@ -20,11 +20,9 @@
   line-height: normal;
 }
 
-.itUpHz {
-  min-height: 0px !important;
-}
 
-.fSPvgE {
+
+.card-media-wrapper {
   background: none !important;
 }
 
@@ -42,15 +40,17 @@
   top: 17px !important;
 }
 
-.itFAVr,
-.iGAcLQ {
+
+
+.card-content-wrapper,
+div[class^="TimelineTitleWrapper"] {
   width: 45% !important;
 }
 
 @media (min-width: 600px) {
 
-  .itFAVr,
-  .iGAcLQ {
+  .card-content-wrapper,
+  div[class^="TimelineTitleWrapper"] {
     width: 20% !important;
   }
 }
