@@ -2,10 +2,12 @@ import './style.css';
 import { Chrono } from 'react-chrono';
 import { timelineInfo } from './timeline-info';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { recalculateTimeline } from '../../utils';
 
 export const Planner = () => {
   const [date] = useLocalStorage('date', '');
   console.log(date);
+  const finalTimeline = recalculateTimeline(timelineInfo, date)
   return (
     <>
       <div className="planner__header">
@@ -13,7 +15,7 @@ export const Planner = () => {
       </div>
       <div className="planner__content">
         <Chrono
-          items={timelineInfo}
+          items={finalTimeline}
           mode="HORIZONTAL"
           nestedCardHeight={200}
           theme={{

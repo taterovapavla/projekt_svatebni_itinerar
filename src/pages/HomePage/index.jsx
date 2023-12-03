@@ -2,9 +2,6 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import { DatePicker } from '@gsebdev/react-simple-datepicker';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
-import { calculateTimeline } from '../../utils';
-
-calculateTimeline();
 
 export const HomePage = () => {
   const [date, setDate] = useLocalStorage('date', '');
