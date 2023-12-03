@@ -2,9 +2,11 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   margin: 0%;
   width: 50vw;
+  text-transform: uppercase;
+  font-size: larger;
 }
 
 
