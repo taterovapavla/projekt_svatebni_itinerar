@@ -14,7 +14,7 @@ import './style.css';
 const pages = [
   { title: 'Homepage', link: '/' },
   { title: 'Plánovač', link: '/planner' },
-  { title: 'Harmonogram akce', link: '/harmonogram' },
+  { title: 'Harmonogram dne D', link: '/harmonogram' },
 ];
 
 export function Header() {
