@@ -7,7 +7,7 @@ import { recalculateTimeline } from '../../utils';
 export const Planner = () => {
   const [date] = useLocalStorage('date', '');
   console.log(date);
-  const finalTimeline = recalculateTimeline(timelineInfo, date)
+  const finalTimeline = recalculateTimeline(timelineInfo, date);
   return (
     <>
       <div className="planner__header">
@@ -18,6 +18,7 @@ export const Planner = () => {
           items={finalTimeline}
           mode="HORIZONTAL"
           nestedCardHeight={200}
+          useReadMore={false}
           theme={{
             primary: 'grey',
             secondary: '#DB9EC5',
