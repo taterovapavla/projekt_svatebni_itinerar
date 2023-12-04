@@ -40,16 +40,14 @@
   top: 17px !important;
 }
 
-
-
-.card-content-wrapper,
+.harmonogram__content .card-content-wrapper,
 div[class^="TimelineTitleWrapper"] {
   width: 45% !important;
 }
 
 @media (min-width: 600px) {
 
-  .card-content-wrapper,
+  .harmonogram__content .card-content-wrapper,
   div[class^="TimelineTitleWrapper"] {
     width: 20% !important;
   }
