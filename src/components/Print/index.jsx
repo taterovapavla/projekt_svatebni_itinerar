@@ -19,21 +19,25 @@ Font.register({
 const styles = StyleSheet.create({
   page: {
     fontFamily: 'Raleway',
-    flexDirection: 'column',
+    display: 'flex',
     backgroundColor: '#EBF4FB',
   },
   section: {
-    margin: 10,
-    paddingTop: 100,
-    flexGrow: 1,
+    display: 'flex',
+    flexDirection: 'row',
+    margin: 0,
+    paddingTop: 0,
+    alignItems: 'center',
   },
   text: {
     padding: 10,
     margin: 10,
+    maxWidth: '80%',
   },
   image: {
-    width: 20,
-    margin: 30,
+    maxWidth: 20,
+    maxHeight: 20,
+    marginLeft: 20,
   },
 });
 
