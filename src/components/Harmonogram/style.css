@@ -52,3 +52,10 @@ div[class^="TimelineTitleWrapper"] {
     width: 20% !important;
   }
 }
+
+.harmonogram__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}

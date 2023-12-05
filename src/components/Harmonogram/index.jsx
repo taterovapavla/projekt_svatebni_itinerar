@@ -1,6 +1,9 @@
 import { Chrono } from 'react-chrono';
 import './style.css';
 import { items } from './harmonogram-info';
+import { PDFDownloadLink } from '@react-pdf/renderer';
+import { MyDocument } from '../Print';
+import { GoToTop } from '../GoToTop';
 
 export const Harmonogram = () => {
   return (
@@ -27,7 +30,16 @@ export const Harmonogram = () => {
             iconBackgroundColor: '#97B1CC',
           }}
         />
+        <PDFDownloadLink
+          document={<MyDocument />}
+          fileName="harmonogramdned.pdf"
+        >
+          {({ blob, url, loading, error }) =>
+            loading ? 'Dokument se načítá...' : 'Harmonogram ke stažení ZDE!'
+          }
+        </PDFDownloadLink>
       </div>
+      <GoToTop />
     </>
   );
 };

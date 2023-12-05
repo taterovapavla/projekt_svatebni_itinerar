@@ -5,7 +5,6 @@ import {
   View,
   Document,
   StyleSheet,
-  PDFViewer,
   Font,
   Image,
 } from '@react-pdf/renderer';
@@ -43,16 +42,14 @@ const styles = StyleSheet.create({
 
 // Create Document Component
 export const MyDocument = () => (
-  <PDFViewer>
-    <Document>
-      <Page size="A4" style={styles.page}>
-        {items.map((item) => (
-          <View style={styles.section}>
-            <Image style={styles.image} src={item.media.source.url} />
-            <Text style={styles.text}>{item.title}</Text>
-          </View>
-        ))}
-      </Page>
-    </Document>
-  </PDFViewer>
+  <Document>
+    <Page size="A4" style={styles.page}>
+      {items.map((item) => (
+        <View style={styles.section}>
+          <Image style={styles.image} src={item.media.source.url} />
+          <Text style={styles.text}>{item.title}</Text>
+        </View>
+      ))}
+    </Page>
+  </Document>
 );

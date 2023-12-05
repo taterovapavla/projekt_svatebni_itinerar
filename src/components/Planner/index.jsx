@@ -3,10 +3,10 @@ import { Chrono } from 'react-chrono';
 import { timelineInfo } from './timeline-info';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { recalculateTimeline } from '../../utils';
+import { GoToTop } from '../GoToTop';
 
 export const Planner = () => {
   const [date] = useLocalStorage('date', '');
-  console.log(date);
   const finalTimeline = recalculateTimeline(timelineInfo, date);
   return (
     <>
@@ -31,6 +31,7 @@ export const Planner = () => {
           }}
         />
       </div>
+      <GoToTop />
     </>
   );
 };
