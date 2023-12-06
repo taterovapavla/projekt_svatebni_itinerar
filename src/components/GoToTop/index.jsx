@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import background from '../../../public/images/arrowup.png';
+import './style.css';
 
 export const GoToTop = () => {
   const [canShow, setCanShow] = useState(false);
@@ -29,23 +30,7 @@ export const GoToTop = () => {
     <>
       {' '}
       {canShow && (
-        <button
-          className="goToTopButton"
-          onClick={onScroll}
-          style={{
-            position: 'fixed',
-            bottom: '40px',
-            right: '5px',
-            height: '30px',
-            width: '30px',
-            fontSize: '30px',
-            backgroundImage: `url(${background})`,
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-            backgroundColor: '#EBF4FB',
-            borderStyle: 'none',
-          }}
-        ></button>
+        <button className="goToTopButton" onClick={onScroll}></button>
       )}
     </>
   );

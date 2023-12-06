@@ -1,0 +1,19 @@
+.goToTopButton {
+  position: fixed;
+  bottom: 40px;
+  right: 5px;
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #EBF4FB;
+  border-style: none;
+  background-image: url(../../../public/images/arrowup.png)
+}
+
+@media (min-width: 600px) {
+  .goToTopButton {
+    right: 40px;
+  }
+}
