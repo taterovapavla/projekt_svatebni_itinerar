@@ -31,11 +31,34 @@ export const Harmonogram = () => {
           }}
         />
         <PDFDownloadLink
+          className="loadingText"
           document={<MyDocument />}
           fileName="harmonogramdned.pdf"
         >
           {({ blob, url, loading, error }) =>
-            loading ? 'Dokument se načítá...' : 'Harmonogram ke stažení ZDE!'
+            loading ? (
+              'Dokument se načítá...'
+            ) : (
+              <p
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  gap: '4px',
+                }}
+              >
+                <p>Harmonogram ke stažení</p>
+                <p
+                  style={{
+                    color: '#DB9EC5',
+                    fontWeight: 'bold',
+                    textDecoration: 'underline',
+                  }}
+                >
+                  ZDE!
+                </p>
+              </p>
+            )
           }
         </PDFDownloadLink>
       </div>
