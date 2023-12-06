@@ -11,9 +11,9 @@ export const recalculateTimeline = (timelineInfo, date) => {
   const daysDifference = Math.floor(timeDifference / (24 * 60 * 60 * 1000));
 
   const timePoints = [12, 10, 8, 6, 4, 3, 2, 1, 0.5, 0.25];
-  const newTimePoints = timePoints.map((point) => {
-    Math.floor((daysDifference * point) / 12);
-  });
+  const newTimePoints = timePoints.map((point) =>
+    Math.floor((daysDifference * point) / 12),
+  );
 
   const newTitles = newTimePoints.map((newPoint) => {
     if (newPoint > 84) {
