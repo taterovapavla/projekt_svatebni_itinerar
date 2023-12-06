@@ -18,3 +18,7 @@
   position: fixed !important;
   z-index: 10;
 }
+
+.MuiContainer-root {
+  margin-right: 0 !important;
+}

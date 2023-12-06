@@ -50,9 +50,15 @@ export const MyDocument = () => (
     <Page size="A4" style={styles.page}>
       <Text style={styles.title}>Harmonogram svatebního dne</Text>
       {items.map((item) => (
-        <View style={styles.section}>
-          <Image style={styles.image} src={item.media.source.url} />
-          <Text style={styles.text}>{item.title}</Text>
+        <View style={styles.section} key={item.title}>
+          <Image
+            style={styles.image}
+            src={item.media.source.url}
+            key={item.title}
+          />
+          <Text style={styles.text} key={item.title}>
+            {item.title}
+          </Text>
         </View>
       ))}
     </Page>

@@ -11,9 +11,9 @@ export const recalculateTimeline = (timelineInfo, date) => {
   const daysDifference = Math.floor(timeDifference / (24 * 60 * 60 * 1000));
 
   const timePoints = [12, 10, 8, 6, 4, 3, 2, 1, 0.5, 0.25];
-  const newTimePoints = timePoints.map((point) =>
-    Math.floor((daysDifference * point) / 12)
-  );
+  const newTimePoints = timePoints.map((point) => {
+    Math.floor((daysDifference * point) / 12);
+  });
 
   const newTitles = newTimePoints.map((newPoint) => {
     if (newPoint > 84) {
@@ -41,13 +41,12 @@ export const recalculateTimeline = (timelineInfo, date) => {
     }
   });
 
-  newTitles.unshift("Po zásnubách");
-  newTitles.push("Těsně před svatbou");
+  newTitles.unshift('Po zásnubách');
+  newTitles.push('Těsně před svatbou');
 
   if (timelineInfo.length === newTitles.length) {
     for (let i = 0; i < timelineInfo.length; i++) {
       timelineInfo[i].title = newTitles[i];
-      console.log(timelineInfo[i].title);
     }
   }
 
