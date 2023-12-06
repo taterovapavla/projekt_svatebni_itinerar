@@ -32,18 +32,23 @@ const styles = StyleSheet.create({
     padding: 10,
     margin: 10,
     maxWidth: '80%',
+    lineHeight: 0.9,
   },
   image: {
     maxWidth: 20,
     maxHeight: 20,
     marginLeft: 20,
   },
+  title: {
+    textAlign: 'center',
+    paddingTop: 10,
+  },
 });
 
-// Create Document Component
 export const MyDocument = () => (
   <Document>
     <Page size="A4" style={styles.page}>
+      <Text style={styles.title}>Harmonogram svatebního dne</Text>
       {items.map((item) => (
         <View style={styles.section}>
           <Image style={styles.image} src={item.media.source.url} />

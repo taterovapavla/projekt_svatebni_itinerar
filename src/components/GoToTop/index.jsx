@@ -30,14 +30,15 @@ export const GoToTop = () => {
       {' '}
       {canShow && (
         <button
+          className="goToTopButton"
           onClick={onScroll}
           style={{
             position: 'fixed',
             bottom: '40px',
-            right: '40px',
-            height: '40px',
-            width: '40px',
-            fontSize: '40px',
+            right: '5px',
+            height: '30px',
+            width: '30px',
+            fontSize: '30px',
             backgroundImage: `url(${background})`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
