@@ -58,7 +58,7 @@ const dvanactMesicuPred = [
   {
     cardTitle: 'Začněte sestavovat seznam hostů pro obřad, hostinu a party',
     cardDetailedText:
-      'Sestavení seznamu hostů je klíčovým prvkem při plánování velikosti svatby. Sedněte si s partnerem a začněte sestavovat seznam rodiny, přátel a známých, které byste chtěli na svatbě pozvat. Tento seznam vám pomůže při vybírání vhodného místa a určování dalších detailů.',
+      'Sestavení seznamu hostů je klíčovým prvkem při plánování velikosti svatby. Sedněte si s partnerem a začněte sestavovat seznam rodiny, přátel a známých, které byste chtěli na svatbu pozvat. Tento seznam vám pomůže při vybírání vhodného místa a určování dalších detailů.',
   },
   {
     cardTitle: 'Rozhodněte se, jestli budete uzavírat předmanželskou smlouvu',
@@ -92,7 +92,7 @@ const desetMesicuPred = [
   {
     cardTitle: 'Zajistěte oddávajícího',
     cardDetailedText:
-      'Zvolte oddávajícího, který vám oba přijde sympatický a bude odpovídat stylu vaší svatby. Může jít o duchovního, kněze nebo obecního úředníka. Navštivte jej a představte mu své představy o obřadu.',
+      'Zvolte oddávajícího, který vám přijde sympatický a bude odpovídat stylu vaší svatby. Může jít o duchovního, kněze nebo obecního úředníka. Navštivte jej a představte mu své představy o obřadu.',
   },
   {
     cardTitle:
@@ -103,7 +103,7 @@ const desetMesicuPred = [
   {
     cardTitle: 'Hledejte inspiraci pro svatební šaty',
     cardDetailedText:
-      'Vybírání svatebních šatů může být vzrušující, ale také náročné. Prozkoumejte různé styly a designy, sledujte aktuální svatební trendy a vybírejte šaty, které vám přinášejí radost. Vzhledem k tomu, že šití a úpravy mohou trvat několik měsíců, začněte brzy s touto částí příprav.',
+      'Vybírání svatebních šatů může být vzrušující, ale také náročné. Prozkoumejte různé styly a designy, sledujte aktuální svatební trendy a vybírejte šaty, které vám přinášejí radost. Vzhledem k tomu, že šití a úpravy mohou trvat několik měsíců, začněte s touto částí příprav brzy.',
   },
   {
     cardTitle: 'Vyberte si svědky a družičky',
@@ -137,12 +137,12 @@ const osmMesicuPred = [
     cardTitle:
       'Vytvořte si seznam přání svatebních darů na své svatební stránce nebo přímo u oblíbených prodejců',
     cardDetailedText:
-      'Pro usnadnění procesu pro hosty a zajištění, že dostanete dary, které si přejete, vytvořte si seznam přání na svatebních dárcovských platformách nebo přímo u oblíbených prodejců. Tím umožníte hostům výběr z přání, která vám opravdu potěší.',
+      'Pro usnadnění procesu pro hosty a zajištění, že dostanete dary, které si přejete, vytvořte si seznam přání na svatebních dárcovských platformách nebo přímo u oblíbených prodejců. Tím umožníte hostům výběr z přání, která vás opravdu potěší.',
   },
   {
     cardTitle: 'Začněte plánovat svatební cestu',
     cardDetailedText:
-      'Plánování svatební cesty může být stejně vzrušující jako plánování samotné svatby. Diskutujte s partnerem o destinaci, která vás láká, a začněte hledat možnosti pro medovou dovolenou. Rezervujte letenky a ubytování včas, abyste získali výhodné nabídky.',
+      'Plánování svatební cesty může být stejně vzrušující jako plánování samotné svatby. Diskutujte s partnerem o destinaci, která vás láká, a začněte hledat možnosti pro dovolenou. Rezervujte letenky a ubytování včas, abyste získali výhodné nabídky.',
   },
 ];
 
@@ -156,7 +156,7 @@ const sestMesicuPred = [
   {
     cardTitle: 'Vyberte oblek pro ženicha',
     cardDetailedText:
-      'Oblek pro ženicha je důležitým prvkem celkového vzhledu na svatbě. Vyberte si oblek, který odpovídá formálnosti svatby a vášemu osobnímu stylu. Dejte si na sebe záležet a případně se poraďte s módním poradcem, aby vám pomohl s výběrem.',
+      'Oblek pro ženicha je důležitým prvkem celkového vzhledu na svatbě. Vyberte si oblek, který odpovídá formálnosti svatby a vášemu osobnímu stylu. Dejte si na sobě záležet a případně se poraďte s módním poradcem, aby vám pomohl s výběrem.',
   },
   {
     cardTitle:
@@ -183,23 +183,23 @@ const sestMesicuPred = [
   {
     cardTitle: 'Vyberte dort a naplánujte jeho ochutnávku',
     cardDetailedText:
-      'Vyberte si design svatebního dortu a domluvte si ochutnávku s cukrářem. Ochutnávka vám umožní zjistit, jak dort chutná a zda odpovídá vašim očekáváním. Diskutujte o designových detailích, aby dort byl vizuálně i chuťově perfektní.',
+      'Vyberte si design svatebního dortu a domluvte si ochutnávku s cukrářem. Ochutnávka vám umožní zjistit, jak dort chutná a zda odpovídá vašim očekáváním. Diskutujte o designových detailech, aby dort byl vizuálně i chuťově perfektní.',
   },
   {
-    cardTitle: 'Najměte hudebníky pro obřad a kapelu nebo DJ pro party',
+    cardTitle: 'Najměte hudebníky pro obřad a kapelu nebo DJ pro párty',
     cardDetailedText:
-      'Vyberte hudebníky pro obřad, kteří dodají atmosféru a emoce k tomuto výjimečnému okamžiku. Pro kapelu nebo DJ pro svatební party vybírejte ty, kteří jsou schopni hrát hudbu podle vašich preferencí a udržet zábavu na vysoké úrovni.',
+      'Vyberte hudebníky pro obřad, kteří dodají atmosféru a emoce k tomuto výjimečnému okamžiku. Pro kapelu nebo DJ pro svatební párty vybírejte ty, kteří jsou schopni hrát hudbu podle vašich preferencí a udržet zábavu na vysoké úrovni.',
   },
   {
     cardTitle:
       'Sejděte se s oddávajícím a domluvte s ním, jak bude celý obřad probíhat',
     cardDetailedText:
-      'S seznámením se s oddávajícím a domluvou na průběhu obřadu zajistíte, že vše proběhne hladce. Projděte si s ním detaily ceremonie, včetně slibů, rituálů a hudby. Dejte mu najevo, jestli máte nějaké speciální přání ohledně průběhu obřadu.',
+      'Seznámením se s oddávajícím a domluvou na průběhu obřadu zajistíte, že vše proběhne hladce. Projděte si s ním detaily ceremonie, včetně slibů, rituálů a hudby. Dejte mu najevo, jestli máte nějaké speciální přání ohledně průběhu obřadu.',
   },
   {
     cardTitle: 'Zajistěte dopravu pro svatební den',
     cardDetailedText:
-      'Zajistěte dopravu pro svatební den pro vás a vaše blízké. To může zahrnovat pronájem automobilu, kočáru nebo jiného speciálního dopravního prostředku. Ujistěte se, že doprava bude připravena a včas dorazí na místo určení.',
+      'Zajistěte dopravu pro svatební den pro vás i vaše blízké. To může zahrnovat pronájem automobilu, kočáru nebo jiného speciálního dopravního prostředku. Ujistěte se, že doprava bude připravena a včas dorazí na místo určení.',
   },
 ];
 
@@ -227,7 +227,7 @@ const ctyriMesicePred = [
   {
     cardTitle: 'Vyberte kytici',
     cardDetailedText:
-      'Květiny hrají klíčovou roli ve vizuálním stylu svatby. Vyberte kytici pro nevěstu, družičky, maminky nevěsty a ženicha, a rovněž zvážte květinové dekorace pro obřad, hostinu a stoly hostů, které přidají do atmosféry svatebního dne nádech romantiky a elegance.',
+      'Květiny hrají klíčovou roli ve vizuálním stylu svatby. Vyberte kytici pro nevěstu, družičky, maminku nevěsty a ženicha, a rovněž zvážte květinové dekorace pro obřad, hostinu a stoly hostů, které přidají do atmosféry svatebního dne nádech romantiky a elegance.',
   },
   {
     cardTitle: 'Připravte playlist pro kapelu/DJ',
@@ -307,7 +307,7 @@ const dvaMesicePred = [
   {
     cardTitle: 'Rozešlete pozvánky a oznámení',
     cardDetailedText:
-      'Svatební pozvánky jsou v cestě k hostům. Včas rozešlete všechny pozvánky a oznámení a buďte připraveni na odpovědi.',
+      'Svatební pozvánky jsou na cestě k hostům. Včas rozešlete všechny pozvánky a oznámení a buďte připraveni na odpovědi.',
   },
   {
     cardTitle: 'Objednejte lístky se svatebním menu a programem',
@@ -378,7 +378,7 @@ const tydny2 = [
       'Návštěva kadeřnice pro úpravu barvy a střihu, začátek prošlapávání svatebních střevíčků.',
   },
   {
-    cardTitle: 'Zajištění péče o květiny a domácí mazlíčky během líbánk.',
+    cardTitle: 'Zajištění péče o květiny a domácí mazlíčky během líbánek.',
   },
   {
     cardTitle:
