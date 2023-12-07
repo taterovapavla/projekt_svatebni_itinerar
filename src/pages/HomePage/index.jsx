@@ -13,11 +13,13 @@ export const HomePage = () => {
         <h2 className="homepage__subtitle">
           Naplánujte si svůj velký den online
         </h2>
-        <DatePickerValue
-        setDateHomepage={setDate}
-        />
+        <DatePickerValue setDateHomepage={setDate} />
         <Link
-        className={ date ? "homepage__link" : "homepage__link homepage__link--disabled"} to="/planner">
+          className={
+            date ? 'homepage__link' : 'homepage__link homepage__link--disabled'
+          }
+          to="/planner"
+        >
           Začít
         </Link>
       </div>

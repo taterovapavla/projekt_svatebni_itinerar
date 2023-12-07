@@ -54,7 +54,17 @@ body {
   line-height: 4rem;
   margin-top: 1.5rem;
   text-align: center;
+  text-decoration: none !important;
+}
 
+.homepage__link:hover {
+  background-color: #DB9EC5
+}
+
+.homepage__link:active {
+  background-color: #DB9EC5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .homepage__link--disabled {
