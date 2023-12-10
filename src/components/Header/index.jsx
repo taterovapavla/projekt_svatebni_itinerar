@@ -91,7 +91,3 @@ export function Header() {
   );
 }
 export default Header;
-
-//<Link to='/' className="navbar__item">HOMEPAGE</Link>
-//<Link to='/planner' className="navbar__item">PLÁNOVAČ</Link>
-//<Link to='' className="navbar__item">HARMONOGRAM AKCE</Link>

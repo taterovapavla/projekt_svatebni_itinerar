@@ -1,6 +1,4 @@
 export const recalculateTimeline = (timelineInfo, date) => {
-  // const weddingDate = JSON.parse(localStorage.getItem("date"));
-
   if (!date) {
     return timelineInfo;
   }
